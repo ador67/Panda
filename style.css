@@ -1,3 +1,87 @@
-.my-btn:focus{
-border-color: red;
+.carousel{
+  background-color:#fceae8 ;
+}
+a{
+  font-weight: 500;
+  font-size: 18px;
+  
+}
+section{
+  margin: 50px 0px 150px 0px;
+}
+.carousel-item{
+  padding: 20px 0px 20px 70px;
+}
+.carousel-item h1{
+  font-size: 30px;
+}
+.carousel-item .tk{
+  color: deeppink;
+}
+.carousel-item p{
+  font-size: 14px;
+}
+.my_btn{
+  border: none;
+  background: hotpink;
+  color: whitesmoke;
+  padding: 6px 12px;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  font-weight: 500;
+}
+.my_btn:hover {
+  background: black;
+  padding: 10px;
+}
+
+.img img{
+  width: 100px;
+}
+.img{
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.img h1{
+  font-size: 25px;
+}
+.img{
+  box-shadow: 5px 5px 10px 0px #777;
+  transition: .2s;
+}
+.img:hover{
+  box-shadow: none;
+}
+.cat_1{
+  background-color: orange;
+
+}
+.cat_2{
+  background-color: orchid;
+}
+.cat_3{
+  background-color: royalblue;
+
+}
+ .card,.card img {
+  transition: 0.2s;
+}
+.card:hover img{
+  transform: scale(1.05);
+}
+
+.card:hover{
+  box-shadow: 10px 10px 6px 0px #C6C6CA4D;
+}
+.from{
+  height: 300px;
+  background: #fceae8;
+}
+footer p{
+  text-align: center;
+  margin: 10px 0px;
+}
+a{
+  text-decoration: none;
 }
